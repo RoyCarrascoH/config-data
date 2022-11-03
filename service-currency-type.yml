@@ -13,10 +13,6 @@ local:
 spring:
   application:
     name: service-currency-type
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/CurrencyTypeDB
-      auto-index-creation: true
 eureka:
   client:
     service-url:
